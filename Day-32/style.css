@@ -1,0 +1,32 @@
+body{
+    background-color: deepskyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    font-size: 3rem;
+    animation: a 3s ease;
+    animation-iteration-count: infinite;
+}
+input{
+   width: 400px; 
+   height: 50px;
+}
+button{
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+    color: black;
+    font-size: 2rem;
+}
+button:hover{
+    background-color: lightsalmon;
+}
+@keyframes a {
+    from{
+        background-color: deepskyblue;
+    }
+    to{
+        background-color: lightpink;
+    }
+}
