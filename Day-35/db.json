@@ -1,0 +1,29 @@
+{
+  "student": [
+    {
+      "name": "abhinaya rani",
+      "img": "https://vismaifood.com/storage/app/uploads/public/914/f47/fa9/thumb__1200_0_0_0_auto.jpg",
+      "id": "3"
+    },
+    {
+      "name": "shashikala sravya",
+      "img": "https://media.istockphoto.com/id/1443562748/photo/cute-ginger-cat.jpg?s=612x612&w=0&k=20&c=vvM97wWz-hMj7DLzfpYRmY2VswTqcFEKkC437hxm3Cg=",
+      "id": "4"
+    },
+    {
+      "id": "3335",
+      "name": "Naresh",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Mule_buck_elk_creek_m_myatt_%285489214303%29.jpg/1200px-Mule_buck_elk_creek_m_myatt_%285489214303%29.jpg"
+    },
+    {
+      "id": "4ed3",
+      "name": "Farida",
+      "img": "https://lh5.googleusercontent.com/proxy/fm5qZsQ1nm8HztsfW92BSx3XQKt1tl2miFs7fXnbRmwE5bmIR3ADNRXrG0h6fpcNpkggOK684pAHz0bkpBZTvZLVj8bIwot0-h0aDsU"
+    },
+    {
+      "id": "a094",
+      "name": "Parameswari",
+      "img": "https://i.pinimg.com/736x/b8/87/68/b88768c7fbd897f8e5dbed7d5156b83d.jpg"
+    }
+  ]
+}
