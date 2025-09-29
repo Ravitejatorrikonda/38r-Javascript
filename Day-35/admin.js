@@ -36,12 +36,8 @@ function showdata(data) {
     
     `
         container.appendChild(item)
-    })
-
-
-
-    data.forEach(student => {
-        let deletebtn = document.getElementById(`deletebtn${student.id}`)
+        
+         let deletebtn = document.getElementById(`deletebtn${student.id}`)
         let edibtn = document.getElementById(`editbtn${student.id}`)
         deletebtn.onclick = () => {
             DeleteBtn(student.id)
@@ -49,7 +45,20 @@ function showdata(data) {
         edibtn.onclick = () => {
             editData(student.id)
         }
-    });
+    })
+
+
+
+    // data.forEach(student => {
+        // let deletebtn = document.getElementById(`deletebtn${student.id}`)
+        // let edibtn = document.getElementById(`editbtn${student.id}`)
+        // deletebtn.onclick = () => {
+        //     DeleteBtn(student.id)
+        // }
+        // edibtn.onclick = () => {
+        //     editData(student.id)
+        // }
+    // });
 
 
 }
