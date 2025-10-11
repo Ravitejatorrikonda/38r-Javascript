@@ -1,0 +1,74 @@
+/* === BODY STYLING === */
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 40px;
+      background: linear-gradient(135deg, #ff8a00, #e52e71, #0078ff);
+      background-size: 400% 400%;
+      animation: gradientShift 10s ease infinite;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    @keyframes gradientShift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    /* === CONTAINER LAYOUT === */
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 25px;
+      width: 100%;
+      max-width: 1200px;
+    }
+
+    /* === PRODUCT CARD STYLING === */
+    .container > div {
+      background: rgba(255, 255, 255, 0.15);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-radius: 16px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    /* === CARD HOVER EFFECT === */
+    .container > div:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+    }
+
+    /* === IMAGE STYLING === */
+    .container img {
+      width: 120px;
+      height: 120px;
+      object-fit: contain;
+      border-radius: 12px;
+      margin-bottom: 15px;
+      background: rgba(255, 255, 255, 0.2);
+      padding: 10px;
+    }
+
+    /* === TEXT STYLING === */
+    .container h3 {
+      font-size: 1.1rem;
+      margin: 10px 0 5px;
+      color: #f1f1f1;
+    }
+
+    .container p {
+      font-size: 0.9rem;
+      margin: 5px 0;
+      color: #f0f0f0;
+      line-height: 1.4;
+    }
+  
